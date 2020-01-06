@@ -8,7 +8,7 @@ Created on Wed Jan  1 22:18:17 2020
 
 import math 
 import numpy as np
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 class Passenger:
     def __init__(self, starting_point, end_point, speed):
