@@ -4,7 +4,7 @@ python:
   - "3.8"
 # command to install dependencies
 install:
-  - pip install requests pyyaml pytest pytest-cov matplotlib numpy math
+  - pip install requests pyyaml pytest pytest-cov matplotlib 
 # command to run tests
 script:
   - pytest --cov=./
